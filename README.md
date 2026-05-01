@@ -1,63 +1,99 @@
-Restaurant Site - Project Description
-Overview
-KHAO is a modern, full-stack restaurant website designed to showcase a restaurant's brand, services, and enable customers to make online reservations. It features a responsive frontend with a professional backend API for managing reservations.
 
-What's Inside the Website
-Frontend Features:
-Hero Section - Eye-catching landing section with restaurant branding
-Navbar - Navigation menu with smooth scrolling to different sections
-About Section - Information about the restaurant
-Qualities Section - Highlights restaurant's key qualities:
-Quality Food
-Super Taste
-Fast Delivery
-Reservation System - Book a table with personal details (name, email, phone, date, time)
-Services Section - Available services and offerings
-Team Section - Chef and staff information
-Footer - Contact and additional information
-Success Page - Confirmation after successful reservation
-404 Page - Not found page for invalid routes
-Technical Stack
-Frontend Technologies:
-Framework: React 19.1.1
-Build Tool: Vite 7.1.7 (fast bundler and dev server)
-Routing: React Router DOM 7.9.5 (for multi-page navigation)
-HTTP Client: Axios 1.13.1 (for API calls)
-UI Notifications: React Hot Toast 2.6.0 (toast notifications)
-Icons: React Icons 5.5.0 (icon library)
-Smooth Scrolling: React Scroll 1.9.3 (for smooth page navigation)
-Styling: CSS (custom styles with App.css, index.css)
-Language: JavaScript (ES6 modules)
-Backend Technologies:
-Runtime: Node.js (ES6 module syntax)
-Framework: Express.js 5.1.0 (web server)
-Database: MongoDB with Mongoose 8.19.2 (ODM)
-CORS: CORS 2.8.5 (cross-origin requests handling)
-Environment: Dotenv 17.2.3 (configuration management)
-Validation: Validator 13.15.20 (data validation)
-Development: Nodemon 3.1.10 (auto-reload on changes)
+# 🍽️ Restaurant Site – Project Description
 
+## 📌 Overview
 
-Architecture
-Backend Structure:
-Server: Node.js Express server running on port 4000
-API Endpoint: POST /api/v1/reservation/send - accepts reservation data
-Database: MongoDB connection for storing reservations
-Error Handling: Custom error middleware for consistent error responses
-CORS: Allows requests from frontend URL only
-Frontend Structure:
-Components: Modular React components (Navbar, Hero, About, etc.)
-Pages: Home, Success, NotFound pages
-State Management: React Hooks (useState, useNavigate)
-Routing: React Router with 3 main routes (/, /success, *)
-Key Features
-✅ Responsive Design - Works on desktop, tablet, and mobile
-✅ Real-time Validation - Form validation using validator library
-✅ Error Handling - Toast notifications for success/error messages
-✅ Database Integration - Reservations stored in MongoDB
-✅ Smooth Navigation - Scroll-based section navigation
-✅ Production Ready - Built with Vite for optimized performance
-✅ Cross-origin Support - CORS configured for frontend-backend communication
+**KHAO** is a modern full-stack restaurant website designed to showcase a restaurant’s brand, services, and allow customers to make online reservations. It features a responsive frontend and a robust backend API for handling reservation data.
+
+---
+
+## 🌐 Website Features
+
+### 🔹 Frontend Features
+
+* **Hero Section** – Engaging landing section with branding
+* **Navbar** – Smooth scrolling navigation
+* **About Section** – Restaurant information
+* **Qualities Section** – Highlights:
+
+  * Quality Food
+  * Super Taste
+  * Fast Delivery
+* **Reservation System** – Table booking with user details (name, email, phone, date, time)
+* **Services Section** – Available offerings
+* **Team Section** – Chef and staff details
+* **Footer** – Contact & additional info
+* **Success Page** – Reservation confirmation
+* **404 Page** – Handles invalid routes
+
+---
+
+## 🛠️ Technical Stack
+
+### 🎨 Frontend Technologies
+
+* **Framework:** React (v19.1.1)
+* **Build Tool:** Vite (v7.1.7)
+* **Routing:** React Router DOM (v7.9.5)
+* **HTTP Client:** Axios (v1.13.1)
+* **Notifications:** React Hot Toast (v2.6.0)
+* **Icons:** React Icons (v5.5.0)
+* **Smooth Scroll:** React Scroll (v1.9.3)
+* **Styling:** CSS (App.css, index.css)
+* **Language:** JavaScript (ES6 Modules)
+
+---
+
+### ⚙️ Backend Technologies
+
+* **Runtime:** Node.js
+* **Framework:** Express.js (v5.1.0)
+* **Database:** MongoDB with Mongoose (v8.19.2)
+* **CORS:** CORS (v2.8.5)
+* **Environment Config:** Dotenv (v17.2.3)
+* **Validation:** Validator (v13.15.20)
+* **Development Tool:** Nodemon (v3.1.10)
+
+---
+
+## 🏗️ Architecture
+
+### 🔹 Backend Structure
+
+* Server runs on **port 4000**
+* API Endpoint:
+
+  ```
+  POST /api/v1/reservation/send
+  ```
+* Stores reservation data in MongoDB
+* Custom error-handling middleware
+* CORS configured for frontend access only
+
+---
+
+### 🔹 Frontend Structure
+
+* **Components:** Navbar, Hero, About, etc.
+* **Pages:** Home, Success, NotFound
+* **State Management:** React Hooks (`useState`, `useNavigate`)
+* **Routing:**
+
+  * `/` → Home
+  * `/success` → Confirmation
+  * `*` → 404 Page
+
+---
+
+## 🚀 Key Features
+
+* ✅ Responsive Design (mobile, tablet, desktop)
+* ✅ Real-time Form Validation
+* ✅ Error Handling with Toast Notifications
+* ✅ MongoDB Integration for Data Storage
+* ✅ Smooth Scrolling Navigation
+* ✅ Production-ready build with Vite
+* ✅ Secure Cross-Origin Communication
 
 Landing Page:
 <img width="1904" height="869" alt="image" src="https://github.com/user-attachments/assets/4b031d4e-8343-4711-b3bb-6fc2f77afa52" />
